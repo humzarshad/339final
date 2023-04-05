@@ -1,11 +1,11 @@
 /* Default/Mobile */
 body {
-    font-family: sans-serif;
+    font-family: system-ui, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: azure;
+    background-color:bisque;
 }
 
 h1{
@@ -42,9 +42,9 @@ img{
 
 
 /* Tablet */
-@media (min-width: 480px) {
+@media (min-width: 600px) {
 body{
-    background-color: beige;
+    background-color:blanchedalmond; 
 }
 /* .image-container{
 
@@ -58,9 +58,9 @@ body{
 
 
 /* Computer */
-@media (min-width: 770px) {
+@media (min-width: 882px) {
 body{
-    background-color: bisque;
+    background-color:antiquewhite;
 }
 /* .image-container{
 
