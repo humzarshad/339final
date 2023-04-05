@@ -1,0 +1,43 @@
+/* Mobile */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 100%;
+    margin: 10px;
+}
+  
+/* Tablet */
+@media (min-width: 480px) {
+body{
+    background-color: beige;
+}
+    
+.image-container img {
+    width: 45%; /* make images take up 45% of their container */
+}
+}
+  
+/* Computer */
+@media (min-width: 770px) {
+body{
+    background-color: bisque;
+}
+
+.image-container img {
+    width: 30%; /* make images take up 30% of their container */
+}
+}
+  
