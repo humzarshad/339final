@@ -13,11 +13,9 @@ h1{
 }
 
 .container{
-    margin: 10rem auto;
-    max-width: 1000px;
-/* 
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); */
+    margin: 5rem auto;
+    padding: 20px;
+    max-width: 900px;
 }
 
 #image-container {
@@ -28,29 +26,22 @@ h1{
     justify-content: space-evenly;
 }
 
-/* .image-container img {
-    flex-basis: 100%;
-    margin: 10px;
-} */
-
 img{
     max-width: 200px;
     margin: 50px;
     flex-grow: 1;
 }
 
-
+.spacer{
+    height: 200px;
+}
 
 /* Tablet */
 @media (min-width: 600px) {
 body{
     background-color:blanchedalmond; 
 }
-/* .image-container{
-
-}
-
-.image-container img {
+/* nav{
 
 } */
 }
@@ -58,15 +49,11 @@ body{
 
 
 /* Computer */
-@media (min-width: 882px) {
+@media (min-width: 900px) {
 body{
     background-color:antiquewhite;
 }
-/* .image-container{
-
-}
-
-/* .image-container img {
+/* nav{
 
 } */
 }
