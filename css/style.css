@@ -49,6 +49,11 @@ img{
     height: auto;
 }
 
+.active {
+    font-weight: bold;
+    color: green;
+}
+
 /* Tablet */
 @media (min-width: 600px) {
     body {
