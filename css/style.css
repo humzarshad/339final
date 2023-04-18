@@ -12,7 +12,7 @@ h1 {
     font-size: 36px;
 }
 
-.container{
+.container {
     margin: 5rem auto;
     padding: 20px;
     max-width: 900px;
@@ -26,13 +26,13 @@ h1 {
     justify-content: space-evenly;
 }
 
-img{
+img {
     max-width: 200px;
     margin: 50px;
     flex-grow: 1;
 }
 
-.spacer{
+.spacer {
     height: 250px;
 }
 
@@ -51,8 +51,84 @@ img{
 
 .active {
     font-weight: bold;
-    color: green;
+    color: red;
 }
+
+.links {
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.links li {
+    display: inline-block;
+    background-color: orange; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+.text
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer
+{
+    background: #000000;
+    background: linear-gradient(90deg,#000000 0%, #0000ff 25%, #0066ff 70%, #000000);
+    border: solid;
+    border-color: #ffffff;
+}
+
+footer p
+{
+    text-align: right;
+    font-size: 20px;
+    text-align: center;
+    font-size: small;
+    color: orange;
+}
+.para
+{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+
+
+}
+
+.para li
+{
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgb(53, 196, 77); 
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+
 
 /* Tablet */
 @media (min-width: 600px) {
@@ -83,6 +159,7 @@ img{
     .image-container-funny {
         grid-template-columns: repeat(2, 1fr);
     }
+
     /* nav{
 
 } */
