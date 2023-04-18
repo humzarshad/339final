@@ -194,6 +194,10 @@ footer p {
     .nav{
         align-items: flex-end;
     }
+
+    .para{
+        flex-direction: row;
+    }
 }
 
 
@@ -212,5 +216,9 @@ footer p {
     .nav{
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .para{
+        flex-direction: row-reverse;
     }
 }
