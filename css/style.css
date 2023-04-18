@@ -177,6 +177,10 @@ footer p {
     border-radius: 9px;
   }
 
+  .strike{
+    text-decoration: line-through;
+  }
+
 
 
 /* Tablet */
