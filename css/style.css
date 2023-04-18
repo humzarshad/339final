@@ -52,7 +52,7 @@ img {
     height: 250px;
 }
 
-.image-container-serious {
+.image-container-serious, .image-container-funny {
     display: grid;
     justify-items: left;
     grid-template-columns: 100%;
@@ -60,7 +60,7 @@ img {
 
 }
 
-.image-container-serious img {
+.image-container-serious img, .image-container-funny img {
     width: 100%;
     height: auto;
 }
@@ -156,19 +156,19 @@ footer p {
 
 
 
-.main-content-serious {
+.main-content-serious, .main-content-funny {
     display: flex;
     align-items: center;
     
   }
   
-  .main-content-serious img {
+  .main-content-serious img, .main-content-funny img {
     float: left;
     margin-right: 30px; 
     margin-left: 10px;
   }
   
-  .main-content-serious p {
+  .main-content-serious p, .main-content-funny p {
     text-align: justify;
     margin: 0;
     display: inline-block;
@@ -213,7 +213,7 @@ footer p {
         background-color: blanchedalmond;
     }
 
-    .image-container-funny {
+    .image-container-funny, .image-container-serious {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
@@ -252,7 +252,7 @@ footer p {
 
     }
 
-    .image-container-funny {
+    .image-container-funny, .image-container-serious {
         grid-template-columns: repeat(2, 1fr);
     }
 
