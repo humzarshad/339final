@@ -8,6 +8,22 @@ body {
     background-color: bisque;
 }
 
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .skip-link:focus {    
+    top: 0;
+    opacity: 1;
+  }
+
 h1 {
     font-size: 36px;
 }
@@ -51,21 +67,23 @@ img {
 
 .active {
     font-weight: bold;
-    color: red;
+    color: #000000;
+    padding: 20px;
 }
 
-.links {
+.nav {
     padding-top: 45px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     color: white;
 }
 
-.links li {
+.nav li {
     display: inline-block;
-    background-color: orange;
+    background-color: #ffffff;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -115,7 +133,7 @@ footer p {
     display: inline-block;
     background-color: rgb(53, 196, 77);
     border: none;
-    color: white;
+    color: black;
     padding: 15px 25px;
     text-align: center;
     font-size: 16px;
@@ -173,9 +191,9 @@ footer p {
     }
 
 
-    /* nav{
-
-} */
+    .nav{
+        align-items: flex-end;
+    }
 }
 
 
@@ -191,7 +209,8 @@ footer p {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* nav{
-
-} */
+    .nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
