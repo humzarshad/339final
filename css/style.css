@@ -36,7 +36,7 @@ img {
     height: 250px;
 }
 
-.image-container-funny {
+.image-container-serious {
     display: grid;
     justify-items: left;
     grid-template-columns: 100%;
@@ -44,7 +44,7 @@ img {
 
 }
 
-.image-container-funny img {
+.image-container-serious img {
     width: 100%;
     height: auto;
 }
@@ -65,7 +65,7 @@ img {
 
 .links li {
     display: inline-block;
-    background-color: orange; 
+    background-color: orange;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -79,33 +79,30 @@ img {
 h1 {
     padding-top: 20px;
     text-align: center;
-  }
+}
 
-.text
-{
+.text {
     text-align: center;
     padding-bottom: 30px;
 }
 
-footer
-{
+footer {
     background: #000000;
-    background: linear-gradient(90deg,#000000 0%, #0000ff 25%, #0066ff 70%, #000000);
+    background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000);
     border: solid;
     border-color: #ffffff;
 }
 
-footer p
-{
+footer p {
     text-align: right;
     font-size: 20px;
     text-align: center;
     font-size: small;
     color: orange;
 }
-.para
-{
-    display: flex; 
+
+.para {
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 20px;
@@ -113,11 +110,10 @@ footer p
 
 }
 
-.para li
-{
+.para li {
     list-style-type: none;
     display: inline-block;
-    background-color: rgb(53, 196, 77); 
+    background-color: rgb(53, 196, 77);
     border: none;
     color: white;
     padding: 15px 25px;
@@ -127,6 +123,41 @@ footer p
     cursor: pointer;
     border-radius: 9px;
 }
+
+.para li:nth-child(2) {
+    background-color: lightblue;
+}
+
+.para li:nth-child(3) {
+    background-color: orchid;
+}
+
+
+
+.main-content-serious {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .main-content-serious img {
+    float: left;
+    margin-right: 30px; 
+    margin-left: 10px;
+  }
+  
+  .main-content-serious p {
+    text-align: justify;
+    margin: 0;
+    display: inline-block;
+    background-color: palegreen;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+  }
 
 
 
