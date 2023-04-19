@@ -224,6 +224,43 @@ footer p {
     grid-row: 2 / 3;
 }
 
+.about-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-author img {
+    float: left;
+    margin-right: 20px;
+    width: 1000%;
+    transform: scale(3);
+   
+}
+
+
+.about-author p {
+    margin-top: 1000px;
+    background-color: rgb(12, 130, 248);
+    color: white;
+    padding: 10px 20px;
+    text-align: right; 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    text-align: justify;
+    align-items: right;
+    clear: both;
+}
+
+.centerer
+{
+    text-align: center;
+    font-size: larger;
+}
+
+
 /* Tablet */
 @media (min-width: 600px) {
     body {
